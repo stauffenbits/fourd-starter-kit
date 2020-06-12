@@ -12,4 +12,6 @@ npm install
 npm start
 ```
 
-You'll need Node.js and NPM installed, more [here](https://nodejs.org/).
+You'll need Node.js and NPM installed, more [here](https://nodejs.org/), and a WebGL capable computer. Which these days should really mean a Raspberry Pi 4 or up.
+
+A word of warning: This is still kinda inefficient, as the math is just a wee bit over my head. So it'll stop working at a graph size of between 250 and 1000 vertices. Spread that stuff out in space and time!
