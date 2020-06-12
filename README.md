@@ -6,7 +6,7 @@ I just discovered this dead simple html5 boilerplate and decided to build a temp
 The steps are dead simple, as I said: 
 
 ```sh
-git clone https://https://github.com/stauffenbits/fourd-starter-kit.git <your name for this project>
+git clone https://github.com/stauffenbits/fourd-starter-kit.git <your name for this project>
 cd <same name>
 npm install
 npm start
