@@ -122,7 +122,8 @@ var FourD = function(){
           var vector = position.project(camera); 
           
           var DOT_THRESHOLD = -0.75;
-          var meshPos = this.parent.getWorldPosition();
+          var meshPos = new THREE.Vector3(0, 0, 0);
+          this.parent.getWorldPosition(meshPos);
           var eye = camera.position.clone().sub(meshPos);
           var dot = eye.clone().normalize().dot(meshPos.normalize());
 

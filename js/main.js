@@ -22,6 +22,8 @@ $fourd.make_resolve_click(function(vertex){
     return;
   }
 
+  console.log(`Vertex of id ${vertex} clicked`);
+
   $fourd.toggle_controls('orbit', vertex);
 })
 
