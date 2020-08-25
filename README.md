@@ -60,3 +60,4 @@ var e = $fourd.graph.add_edge(f, g, {color: 0x000000})
 // removing
 $fourd.graph.remove_edge(e);
 ```
+It's still a little rough around the edges, but I'm shelving improvements to the library to focus on an application that will make do with what I have, after which I'll continue rewriting this.
