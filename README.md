@@ -63,3 +63,12 @@ var e = $fourd.graph.add_edge(f, g, {color: 0x000000})
 $fourd.graph.remove_edge(e);
 ```
 It's still a little rough around the edges, but I'm shelving improvements to the library to focus on an application that will make do with what I have, after which I'll continue rewriting this.
+
+## Caveats
+* Styling is imperfect, a future version addresses this, but isn't ready yet. 
+* There's a Javascript API for a HTML5 Web Component, a CS equivalent of a mixed metaphor. A future version will address this, allowing the choice between HTML5 syntax and Javascript syntax. Allowing HTML5 syntax for adding and removing edges allows you to use XSLT stylesheets to draw graphs from data. 
+* Less than full size doesn't work in this version. The next version addresses this.
+* Resizing behavior is weird. The next version addresses this as well. 
+
+These are not to limit you dear user, but a result of my limits grasping a complicated subject. 
+* 
