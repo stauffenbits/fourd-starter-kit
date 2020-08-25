@@ -3,7 +3,7 @@ An HTML5 starter kit for a page using FourD Graphs.
 
 I just discovered this dead simple html5 boilerplate and decided to build a template repository for displaying 3D graphs. 
 
-You'll need Node.js and NPM installed, more [here](https://nodejs.org/), and a WebGL capable computer. Which these days should really mean a Raspberry Pi 3b+ or up.
+You'll need Node.js, NPM and [parcel](https://parceljs.org/) installed to rebuild the page, more [here](https://nodejs.org/), and a WebGL capable computer. Which these days should really mean a Raspberry Pi 3b+ or up.
 
 ## Installation
 
