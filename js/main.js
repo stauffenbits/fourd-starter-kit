@@ -30,11 +30,11 @@ $fourd.make_resolve_click(function(vertex){
 var g;
 setTimeout(function(){
   g = $fourd.graph.add_vertex({
-    cube: {size: 10, color: 0x000000},
+    cube: {size: 10, texture: '/Swirl_001.png'},
     label: {size: 12, text: 'Graph!'}
   });
 
   $fourd.graph.add_edge(h, g, {color: 0xff614b, strength: 1.0});
 }, 1000);
 
-
+window.fourd = $fourd;
