@@ -1,5 +1,5 @@
 {
-  "name": " ",
+  "name": "fourd-starter-kit",
   "version": "0.0.1",
   "description": "",
   "keywords": "",
@@ -17,5 +17,6 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "three": "^0.117.1"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
